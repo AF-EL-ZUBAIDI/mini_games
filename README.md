@@ -20,7 +20,7 @@ The project is structured into several Java classes, each serving a specific rol
 - `Ihm.java`: Manages the input and output, providing an interface between the game and the player.
 
 ## Running the Games
-Ensure Java is installed, then compile and run Main.java to start:
+Ensure Java is installed, then compile and run `Main.java` to start:
 ```
 javac Main.java
 java Main
