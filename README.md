@@ -1,3 +1,4 @@
+# Mini games
 ## Overview
 This project, developed as part of a university course, encompasses a suite of two classic games: Nim and Connect Four. 
 Each game is designed to allow 1 vs 1 gameplay between real players or against an artificially intelligent (AI) opponent developed as part of the project. 
