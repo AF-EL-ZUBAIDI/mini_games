@@ -1,0 +1,17 @@
+window_sizes 1680 901 420 1254 785 64
+cleanlooks_style
+diagrams
+  active  classdiagram_ref 128002 // jeuPuissance4
+    1099 628 100 A4 0 0
+end
+show_stereotypes
+selected class_ref 128002 // Ihm
+open
+  class_ref 128002 // Ihm
+  class_ref 128130 // ControleurJeuPuissance4
+  class_ref 128258 // Grille
+  class_ref 128386 // CoupGrille
+  class_ref 128514 // Main
+  class_ref 128642 // Joueur
+end
+end

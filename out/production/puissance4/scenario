@@ -1,0 +1,39 @@
+Scénario Nominal:
+
+1. Le système demande le nom du joueur rouge.
+2. L'utilisateur saisit son nom.
+3. Le système demande le nom du joueur jaune.
+4. L'utilisateur saisit son nom.
+5. Le systeme affiche la grille.
+6. Le joueur courant joue.
+7. Le systeme affiche la grille.
+8. Le système vérifie si la partie est terminée.
+9. Le système demande au joueur de refaire une partie ou d'arrêter le jeu.
+10. Fin du jeu.
+
+Extension:
+
+6.a. L’utilisateur saisit une mauvaise valeur.
+    1. Le système demande au joueur courant de choisir à nouveau un autre colonne.
+    2. Retour au point 6.
+
+8.a. La partie n'est pas finie.
+    1. passer au joueur suivant
+    2. Aller au point 6
+
+8.b. La partie est finie.
+    1. Aller au point 9.
+
+9.a. L’utilisateur saisit une mauvaise valeur.
+    1. Retour au point 9.
+
+9.b. L’utilisateur écrit “o”.
+    1. Le système retourne au point 7.
+
+9.c. L’utilisateur écrit “n”.
+    1. Le système arrête le jeu.
+    2. Le système affiche les scores de chaque joueur.
+    3. Le système affiche le vainqueur.
+        a. Le système affiche ex aequo.
+    4. Aller au point 10.
+

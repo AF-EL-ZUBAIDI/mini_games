@@ -1,0 +1,55 @@
+format 222
+
+classcanvas 128002 class_ref 128002 // Ihm
+  classdiagramsettings member_max_width 0 end
+  xyz 625 238 2000
+end
+classcanvas 128130 class_ref 128130 // ControleurJeuPuissance4
+  classdiagramsettings member_max_width 0 end
+  xyz 266 264 2000
+end
+classcanvas 128258 class_ref 128258 // Grille
+  classdiagramsettings member_max_width 0 end
+  xyz 480 36 2000
+end
+classcanvas 128642 class_ref 128514 // Main
+  classdiagramsettings member_max_width 0 end
+  xyz 91 307 2000
+end
+classcanvas 128770 class_ref 128642 // Joueur
+  classdiagramsettings member_max_width 0 end
+  xyz 254 28 2000
+end
+classcanvas 129666 class_ref 128386 // CoupGrille
+  classdiagramsettings member_max_width 0 end
+  xyz 642 76 2000
+end
+relationcanvas 131330 relation_ref 135682 // <unidirectional association>
+  from ref 128130 z 2001 to point 262 210
+  line 131714 z 2001 to point 271 189
+  line 131970 z 2001 to ref 128770
+  no_role_a no_role_b
+  multiplicity_a_pos 275 139 3000 no_multiplicity_b
+end
+relationcanvas 131586 relation_ref 135810 // <unidirectional association>
+  from ref 128130 z 2001 to point 331 208
+  line 131842 z 2001 to ref 128770
+  no_role_a no_role_b
+  multiplicity_a_pos 303 139 3000 no_multiplicity_b
+end
+relationcanvas 132098 relation_ref 135938 // <unidirectional association>
+  from ref 128130 z 2001 to ref 128002
+  no_role_a no_role_b
+  multiplicity_a_pos 608 349 3000 no_multiplicity_b
+end
+relationcanvas 132354 relation_ref 136194 // <unidirectional association>
+  from ref 128258 z 2001 to ref 129666
+  no_role_a no_role_b
+  multiplicity_a_pos 625 103 3000 no_multiplicity_b
+end
+relationcanvas 132482 relation_ref 136322 // <unidirectional association>
+  from ref 128130 z 2001 to ref 128258
+  no_role_a no_role_b
+  multiplicity_a_pos 460 154 3000 no_multiplicity_b
+end
+end
